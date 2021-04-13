@@ -5,12 +5,32 @@
     margin-top: 40px;
 }
 
-.head-Image {
-    width: 250px;
+.head-image {
+    width: auto;
+    transition: max-width 1s, min-width 1s;
 }
 
 .head-text {
     font-family: "SF Arch Rival Extended", sans-serif;
     font-family: "SF Arch Rival", sans-serif;
     margin: 5px 0 15px 0;
+    transition: font-size 1s;
+}
+
+.head-image-expanded {
+    min-width: 230px;
+    max-width: 250px;
+}
+
+.head-image-contracted {
+    min-width: 40px;
+    max-width: 60px;
+}
+
+.head-text-expanded {
+    font-size: 36px;
+}
+
+.head-text-contracted {
+    font-size: 20px;
 }
