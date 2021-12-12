@@ -6,7 +6,7 @@ const Header = ({ headTitle, headerExpanded }) => {
     return (
         <div className="head-container">
             <img
-                src="Header-Image.svg"
+                src={process.env.PUBLIC_URL + "/Header-Image.svg"}
                 alt="Logo"
                 className={`head-image ${
                     headerExpanded
