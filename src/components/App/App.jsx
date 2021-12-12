@@ -11,7 +11,7 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            headerText: "Name App",
+            headerText: "Find a Name!",
             headerExpanded: true,
             suggestedNames: [],
         };
